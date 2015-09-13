@@ -1,0 +1,8 @@
+.DS_Store
+target
+/mod_lua_test-valgrind
+xcuserdata
+*.xccheckout
+*.swp
+*~.nib
+
