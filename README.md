@@ -9,9 +9,9 @@ This Readme contains some documentation and thoughts on the work in progress, al
 ### Related repo's
 I have forked some repositories from aerospike that needed changes to make it all work. In all forks there will be a branch `mod-go` containing the changes for Go UDF.
 
- - [GeertJohan/aerospike-server](https://github.com/GeertJohan/aerospike-server) `mod-go` - The server itself, ofcourse.
- - [GeertJohan/aerospike-common](https://github.com/GeertJohan/aerospike-common) `mod-go` - Small changes were required to expose locking for mod-lua and mod-go separately
- - [GeertJohan/aerospike-mod-lua](https://github.com/GeertJohan/aerospike-server) `mod-go` - Adapt to the new way of locking the module.
+ - [GeertJohan/aerospike-server](https://github.com/GeertJohan/aerospike-server) `mod-go` - The server itself, ofcourse. ([diff master..mod-go](https://github.com/aerospike/aerospike-server/compare/master...GeertJohan:mod-go))
+ - [GeertJohan/aerospike-common](https://github.com/GeertJohan/aerospike-common) `mod-go` - Small changes were required to expose locking for mod-lua and mod-go separately. ([diff master..mod-go](https://github.com/aerospike/aerospike-common/compare/master...GeertJohan:mod-go))
+ - [GeertJohan/aerospike-mod-lua](https://github.com/GeertJohan/aerospike-mod-lua) `mod-go` - Adapt to the new way of locking the module. ([diff master..mod-go](https://github.com/aerospike/aerospike-mod-lua/compare/master...GeertJohan:mod-go))
  - [GeertJohan/aerospike-udf-go](https://github.com/GeertJohan/aerospike-udf-go) `master` - Go package and command to create Go UDF `.so` files.
  - [GeertJohan/aerospike-mod-go](https://github.com/GeertJohan/aerospike-mod-go) `master` - This repository, contains the mod-go module.
 
